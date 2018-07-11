@@ -1,0 +1,85 @@
+<div class="tab">
+  <button id="oneWay" [ngClass]="{'selected':bookingDetails.oneway}" (click)="changeBookingType(true)">One Way</button>
+  <button id="twoWay" [ngClass]="{'selected':!bookingDetails.oneway}" (click)="changeBookingType(false)">Return</button>
+</div>
+
+<div class="flightForm">
+  <form (submit)="onSubmit()" #flightForm="ngForm">
+    <div class="form-group">
+      <input id="source" required type="text" class="form-control" (input)="suggestCity(bookingDetails.source, true)" placeholder="Source"
+        [(ngModel)]="bookingDetails.source" name="source" #source="ngModel">
+      <div *ngIf="(source.errors && source?.errors.required)">
+        Source is required.
+      </div>
+      <div *ngIf="source.invalid && (source.dirty || source.touched)" class="alert alert-danger">
+        Please provide a valid input
+      </div>
+    </div>
+
+    <div class="suggestion" *ngIf="filteredOriginCities.length>0">
+      <ul>
+        <li (click)="onSelectionChanged(city, true)" *ngFor="let city of filteredOriginCities">{{city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()}}</li>
+      </ul>
+    </div>
+
+    <div class="form-group">
+      <input id="destination" required type="text" class="form-control" (input)="suggestCity(bookingDetails.destination, false)"
+        placeholder="Destination" [(ngModel)]="bookingDetails.destination" name="destination" #destination="ngModel">
+      <div *ngIf="(destination.errors && destination?.errors.required)">
+        Origin is required.
+      </div>
+      <div *ngIf="destination.invalid && (destination.dirty || destination.touched)" class="alert alert-danger">
+        Please provide a valid input
+      </div>
+    </div>
+
+    <div class="suggestion" *ngIf="filteredDestinationCities.length>0">
+      <ul>
+        <li (click)="onSelectionChanged(city, false)" *ngFor="let city of filteredDestinationCities">{{city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()}}</li>
+      </ul>
+    </div>
+
+    <div class="form-group">
+      <mat-form-field>
+        <input matInput [matDatepicker]="departPicker" placeholder="Departure" id="departdate" #departdate="ngModel" name="departdate"
+          [(ngModel)]="bookingDetails.departDate">
+        <mat-datepicker-toggle matSuffix [for]="departPicker"></mat-datepicker-toggle>
+        <mat-datepicker #departPicker></mat-datepicker>
+      </mat-form-field>
+      <div *ngIf="departdate.invalid && (departdate.dirty || departdate.touched)" class="alert alert-danger">
+        Select a Departure Date
+      </div>
+    </div>
+
+    <div class="form-group" *ngIf="!bookingDetails.oneway">
+      <mat-form-field>
+        <input matInput [matDatepicker]="returnPicker" placeholder="Return" id="returnDate" #returnDate="ngModel" name="returnDate"
+          [(ngModel)]="bookingDetails.returnDate">
+        <mat-datepicker-toggle matSuffix [for]="returnPicker"></mat-datepicker-toggle>
+        <mat-datepicker #returnPicker></mat-datepicker>
+      </mat-form-field>
+      <div *ngIf="returnDate.invalid && (returnDate.dirty || returnDate.touched)" class="alert alert-danger">
+        Select a Return Date
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="passengers">No of Passengers</label>
+      <input type="number" class="form-control" required #passengers="ngModel" min=1 max=5 placeholder="Passengers" id="passengers"
+        [(ngModel)]="bookingDetails.passengers" name="passengers" />
+      <div *ngIf="passengers.invalid && (passengers.dirty || passengers.touched)" class="alert alert-danger">
+        Please provide a valid input.
+      </div>
+    </div>
+
+    <div class="form-group">  
+      <label for="refine" class="example-h2">Price Range</label>
+      <mat-slider class="example-margin" name="refine" id="refine" #refine="ngModel"
+      [thumbLabel]="true" [max]="10000" [min]="1000" [(ngModel)]="bookingDetails.refine">
+      </mat-slider>
+    </div>
+
+    <button type="submit" class="btn btn-default" [disabled]="flightForm.invalid">Submit</button>
+  </form>
+
+</div>

@@ -1,0 +1,26 @@
+.flight-card {
+    width:80%;
+    padding:20px;
+    margin:auto;
+    margin-top:10px;
+    background:rgb(233, 240, 243);
+    line-height: 1.5;
+}
+
+.onward, .return{
+    padding:5px;
+    display: inline-block;
+    width: 50%
+}
+.booking{
+    background-color: rgb(84, 112, 214);
+    color: azure
+}
+.flight-image{
+    background-image: url('../../assets/Flight-takeoff-01.png');
+    background-size: cover;
+}
+
+.flight-content{
+    margin-left: 5%
+}

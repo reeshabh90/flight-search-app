@@ -1,0 +1,455 @@
+{
+    "flights": [
+        {
+            "flightNo": "AL-202",
+            "source": "mumbai",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-13 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-13 01:02:03",
+            "fare": "2300.00"
+        },
+        {
+            "flightNo": "AL-206",
+            "source": "mumbai",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-13 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-13 01:02:03",
+            "fare": "990.00"
+        },
+        {
+            "flightNo": "AL-206",
+            "source": "mumbai",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-13 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "990.00"
+        },
+        {
+            "flightNo": "AL-217",
+            "source": "pune",
+            "destination": "bangalore",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "850.00"
+        },
+        {
+            "flightNo": "AL-333",
+            "source": "bangalore",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "990.00"
+        },
+        {
+            "flightNo": "AL-204",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1000.00"
+        },
+        {
+            "flightNo": "AL-102",
+            "source": "delhi",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1000.00"
+        },
+        {
+            "flightNo": "AL-102",
+            "source": "pune",
+            "destination": "delhi",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1000.00"
+        },
+        {
+            "flightNo": "IN-699",
+            "source": "delhi",
+            "destination": "bangalore",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1600.00"
+        },
+        {
+            "flightNo": "IN-699",
+            "source": "bangalore",
+            "destination": "delhi",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1600.00"
+        },
+        {
+            "flightNo": "IN-714",
+            "source": "bangalore",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1950.00"
+        },
+        {
+            "flightNo": "IN-704",
+            "source": "bangalore",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1600.00"
+        },
+        {
+            "flightNo": "IN-690",
+            "source": "pune",
+            "destination": "bangalore",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1300.00"
+        },
+        {
+            "flightNo": "IN-690",
+            "source": "bangalore",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1599.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "2500.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "1500.50"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "delhi",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "6000.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "5000.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "5300.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "5185.75"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "4545.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "6545.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "mumbai",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-13 08:00:00",
+                "arrival": "2018-07-11 12:30:00"
+            },
+            "date": "2018-07-13 01:02:03",
+            "fare": "3400.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "4300.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "8000.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "5488.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "10000.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "9888.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "7500.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "8500.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "9500.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "6000.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "mumbai",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-13 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-13 01:02:03",
+            "fare": "8500.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "8499.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "3400.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "5900.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "8700.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "9700.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "6800.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "pune",
+            "destination": "mumbai",
+            "time": {
+                "departure": "2018-07-11 08:00:00",
+                "arrival": "2018-07-11 10:30:00"
+            },
+            "date": "2018-07-11 01:02:03",
+            "fare": "9999.00"
+        },
+        {
+            "flightNo": "AL-203",
+            "source": "mumbai",
+            "destination": "pune",
+            "time": {
+                "departure": "2018-07-13 08:00:00",
+                "arrival": "2018-07-13 10:30:00"
+            },
+            "date": "2018-07-13 01:02:03",
+            "fare": "6666.00"
+        }
+    ]
+}

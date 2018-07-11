@@ -1,0 +1,29 @@
+.FlightContainer{
+    display: grid;
+    grid-template-areas: "flight-search flight-card";
+    grid-template-columns: 25%;
+    
+    grid-template-rows:60px;  
+    min-height: 100vh;
+}
+
+div.flight-search {
+    background:rgba(29, 31, 32, 0.384);
+    height: 100%
+  }
+
+@media screen and (max-width: 600px) {
+	.wrapper {
+		grid-template-areas: "flight-search"
+		                     "info-box"
+		                     "flight-card";
+
+		grid-template-columns: 100%;
+		grid-template-rows: 70px 
+							400px 
+							0.1fr
+							0.5fr 
+              30px;
+    overflow: scroll;
+  }
+}
