@@ -27,7 +27,7 @@ export class FlightSearchComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.flightService.getCitiesListedOnServer().subscribe(cities => {
+    this.flightService.getCityList().subscribe(cities => {
       this.citiesList = cities; console.log('city list', this.citiesList);
     });
 

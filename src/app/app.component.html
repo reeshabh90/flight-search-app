@@ -3,7 +3,7 @@
     <app-flight-search (searchResults)="updateInputParams($event)" (loadingComponent)="swapLoading($event)"></app-flight-search>
   </div>
 
-  <div *ngIf="!loading">
+  <div *ngIf="!loading" class="flight-card">
     <app-flight-details [searchResults]="searchResults"></app-flight-details>
   </div>
 </div>

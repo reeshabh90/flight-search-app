@@ -13,28 +13,24 @@ export class FlightSearchService {
   constructor(private http: HttpClient) { }
 
   /**
- * Search for availablity of flight from server(JSON data in this case)
- * @param searchParams;
- */
+   *
+   * @param searchParams Search flight availability based on Booking Details recieved in Search parameters
+   */
   public searchFlightAvailability(searchParams: BookingDetails) {
     return this.http.get(apiUrl)
-      .pipe(map(data => this.searchAndSort(data, searchParams)));
+      .pipe(map(data => this.flightSearch(data, searchParams)));
   }
 
   /**
-   * Gets the cities available for search from server.
-   * NOTE: Usually server side code provides a REST api
-   * to get teh cities availablr for search thereby reducing 
-   * client side dependency. Thin client approach :)
+   * fetch the list of cities from data available
    */
-  public getCitiesListedOnServer() {
+  public getCityList() {
     return this.http.get(apiUrl)
       .pipe(map(data => this.extractCities(data)));
   }
 
   /**
-   * Extracts and returns filtered array of cities,
-   * available on server.
+   * Filter out cities from data available for Flight Booking.
    * @param flightData;
    */
   public extractCities(flightData: any) {
@@ -51,17 +47,17 @@ export class FlightSearchService {
   }
 
   /**
-   * Sorts the incoming data and sends for searching
+   * Flight search after sorting out data based on Fare
    * @param data;
    */
-  private searchAndSort(data: any, searchParams: BookingDetails) {
+  private flightSearch(data: any, searchParams: BookingDetails) {
     data.flights.map(x => x.fare = parseInt(x.fare, 10));
     const allFlights: Flight[] = data.flights;
-    return this.getMatchingItemsFromArray(this.sortFlightArray(allFlights), searchParams);
+    return this.getAvailableFlights(this.sortFlightArray(allFlights), searchParams);
   }
 
   /**
-   * Sort the flight data w.r.t amount
+   * Method to sort flights based on fare
    * @param flightData;
    */
   private sortFlightArray(flightData: Flight[]) {
@@ -72,21 +68,17 @@ export class FlightSearchService {
   }
 
   /**
-   * Returns a new array of matching items based on search.
+   * Filtered list of flights from the data available
    * @param sortedFlightData;
    * @param searchParams;
    */
-  private getMatchingItemsFromArray(sortedFlightData: Flight[], searchParams: BookingDetails) {
+  private getAvailableFlights(sortedFlightData: Flight[], searchParams: BookingDetails) {
     const filteredItmes: Flight[] = [];
-    // create a new array which contains the items that are ;
-    // in our range to make. Makes sense , eases pain :P
     const dataInRange: Flight[] = [];
     sortedFlightData.map((x) => {
       x.fare <= searchParams.refine ? dataInRange.push(x) : console.log('Not in range');
     });
     dataInRange.map((x) => {
-      // console.log('x', x.date.toString().slice(0, 10));
-      // console.log('searchparam', this.formatDate(searchParams.departDate));
       if (x.date.toString().slice(0, 10) === this.formatDate(searchParams.departDate).toString()) {
         if ((x.source === searchParams.source
           && x.destination === searchParams.destination)) {
@@ -98,6 +90,10 @@ export class FlightSearchService {
     return filteredItmes;
   }
 
+  /**
+   *
+   * @param date Date Formattter
+   */
   private formatDate(date) {
     const d = new Date(date);
     let month = '' + (d.getMonth() + 1);

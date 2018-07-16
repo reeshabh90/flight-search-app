@@ -1,0 +1,19 @@
+.infoBar{
+    width:100%;
+    background: rgb(84, 112, 214);;
+    color:white;
+}
+.infoBar h3{
+    display: inline-block;
+    padding: 12px;
+}
+.flightInfo{
+    float: right;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 600px){
+   .flightTimingInfo{
+    float:none;
+   }
+}

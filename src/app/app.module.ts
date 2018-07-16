@@ -7,12 +7,14 @@ import { AppMaterialModules } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { FlightDetailsComponent } from './flight-details/flight-details.component';
+import { FlightInfoComponent } from './flight-info/flight-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FlightSearchComponent,
-    FlightDetailsComponent
+    FlightDetailsComponent,
+    FlightInfoComponent
   ],
   imports: [
     BrowserModule, FormsModule, AppMaterialModules, BrowserAnimationsModule, HttpClientModule

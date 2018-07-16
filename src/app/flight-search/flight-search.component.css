@@ -1,9 +1,8 @@
 div.tab{
     overflow: hidden;
-    background-color: #f1f1f1;
 }
 div.tab button {
-    background-color: inherit;
+    background-color:  rgb(84, 112, 214);;
     float: left;
     border: none;
     outline: none;
@@ -11,12 +10,33 @@ div.tab button {
     padding: 14px 16px;
     transition: 0.3s;
 }
-/* Change background color of buttons on hover */
+
 div.tab button:hover {
     background-color: #ddd;
 }
 
 div.tab button.selected {
-    background-color: rgb(216, 156, 137);
+    background-color:  rgb(84, 145, 214);
     color:white;
 }
+.flightForm{
+    margin-top: 2px
+}
+
+ul{
+    background-color:rgb(130, 179, 235);
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul li{
+    padding:10px;
+}
+li:hover{
+    background: lightgray;
+    color:rgb(84, 145, 214);
+    cursor: pointer;
+}
+

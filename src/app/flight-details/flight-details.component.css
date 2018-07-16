@@ -7,20 +7,31 @@
     line-height: 1.5;
 }
 
-.onward, .return{
+.onward, .return, .summary{
     padding:5px;
     display: inline-block;
-    width: 50%
+    width: 33%
 }
 .booking{
     background-color: rgb(84, 112, 214);
-    color: azure
+    color: azure;
+    left: 45%;
 }
 .flight-image{
     background-image: url('../../assets/Flight-takeoff-01.png');
     background-size: cover;
 }
 
+.price-image{
+    background-image: url('../../assets/price.png');
+    background-size: cover;
+}
+
 .flight-content{
     margin-left: 5%
 }
+.flight-content-one-way{
+    align-items: center
+}
+
+
