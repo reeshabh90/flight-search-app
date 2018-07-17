@@ -9,7 +9,7 @@ import { SearchResponse } from '../../models/search-result';
 export class FlightDetailsComponent implements OnInit {
 
   constructor() { }
-  @Input() searchResults: SearchResponse;
+  @Input() searchResults: SearchResponse; // input for Flight details
   ngOnInit() {
   }
 

@@ -1,6 +1,6 @@
 <div class="FlightContainer">
   <div class="flight-search">
-    <app-flight-search (searchResults)="updateInputParams($event)" (loadingComponent)="swapLoading($event)"></app-flight-search>
+    <app-flight-search (searchResults)="updateInputParams($event)" (loadingComponent)="toggle($event)"></app-flight-search>
   </div>
 
   <div *ngIf="!loading" class="flight-card">

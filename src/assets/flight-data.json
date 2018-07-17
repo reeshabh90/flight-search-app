@@ -1,7 +1,7 @@
 {
     "flights": [
         {
-            "flightNo": "AL-202",
+            "flightNo": "6E-202",
             "source": "mumbai",
             "destination": "pune",
             "time": {
@@ -12,7 +12,7 @@
             "fare": "2300.00"
         },
         {
-            "flightNo": "AL-206",
+            "flightNo": "6E-206",
             "source": "mumbai",
             "destination": "pune",
             "time": {
@@ -23,7 +23,7 @@
             "fare": "990.00"
         },
         {
-            "flightNo": "AL-206",
+            "flightNo": "6E-206",
             "source": "mumbai",
             "destination": "pune",
             "time": {
@@ -34,7 +34,7 @@
             "fare": "990.00"
         },
         {
-            "flightNo": "AL-217",
+            "flightNo": "6E-217",
             "source": "pune",
             "destination": "bangalore",
             "time": {
@@ -45,7 +45,7 @@
             "fare": "850.00"
         },
         {
-            "flightNo": "AL-333",
+            "flightNo": "6E-333",
             "source": "bangalore",
             "destination": "pune",
             "time": {
@@ -56,7 +56,7 @@
             "fare": "990.00"
         },
         {
-            "flightNo": "AL-204",
+            "flightNo": "AI-204",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -67,7 +67,7 @@
             "fare": "1000.00"
         },
         {
-            "flightNo": "AL-102",
+            "flightNo": "AI-102",
             "source": "delhi",
             "destination": "pune",
             "time": {
@@ -78,7 +78,7 @@
             "fare": "1000.00"
         },
         {
-            "flightNo": "AL-102",
+            "flightNo": "6E-102",
             "source": "pune",
             "destination": "delhi",
             "time": {
@@ -155,7 +155,7 @@
             "fare": "1599.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -166,7 +166,7 @@
             "fare": "2500.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -177,7 +177,7 @@
             "fare": "1500.50"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "delhi",
             "destination": "mumbai",
             "time": {
@@ -188,7 +188,7 @@
             "fare": "6000.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -199,7 +199,7 @@
             "fare": "5000.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -210,7 +210,7 @@
             "fare": "5300.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -221,7 +221,7 @@
             "fare": "5185.75"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -232,7 +232,7 @@
             "fare": "4545.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -243,7 +243,7 @@
             "fare": "6545.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "mumbai",
             "destination": "pune",
             "time": {
@@ -254,7 +254,7 @@
             "fare": "3400.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -265,7 +265,7 @@
             "fare": "4300.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -276,7 +276,7 @@
             "fare": "8000.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -287,7 +287,7 @@
             "fare": "5488.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -298,7 +298,7 @@
             "fare": "10000.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -309,7 +309,7 @@
             "fare": "9888.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -320,7 +320,7 @@
             "fare": "7500.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -331,7 +331,7 @@
             "fare": "8500.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "AI-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -342,7 +342,7 @@
             "fare": "9500.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -353,7 +353,7 @@
             "fare": "6000.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "mumbai",
             "destination": "pune",
             "time": {
@@ -364,7 +364,7 @@
             "fare": "8500.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -375,7 +375,7 @@
             "fare": "8499.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -386,7 +386,7 @@
             "fare": "3400.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -397,7 +397,7 @@
             "fare": "5900.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -408,7 +408,7 @@
             "fare": "8700.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -419,7 +419,7 @@
             "fare": "9700.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -430,7 +430,7 @@
             "fare": "6800.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "pune",
             "destination": "mumbai",
             "time": {
@@ -441,7 +441,7 @@
             "fare": "9999.00"
         },
         {
-            "flightNo": "AL-203",
+            "flightNo": "6E-203",
             "source": "mumbai",
             "destination": "pune",
             "time": {

@@ -14,13 +14,11 @@ export class AppComponent {
   fly = false;
 
   public updateInputParams(searchResults: SearchResponse) {
-    console.log('Ok got that emitted value mate', searchResults);
     this.bookingInfo = searchResults.bookingDetails;
     this.searchResults = searchResults;
   }
 
-  public swapLoading(loading: boolean) {
-    console.log('Swapping', loading);
+  public toggle(loading: boolean) {
     this.loading = loading;
   }
 
